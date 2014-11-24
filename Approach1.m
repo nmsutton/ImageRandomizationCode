@@ -6,7 +6,7 @@ targetCriteria1 = randperm(9); %Numbers 1-9 in random order
 targetCriteria2 = randperm(9); %Numbers 1-9 in random order
 bottomImageSameAsTop = []
 for i = 1:18
-  if i < 9
+  if i < 10
      left_bottom_image_cutoff = leftTargets1
      target_criteria =  targetCriteria1
   else
